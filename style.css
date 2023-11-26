@@ -1,7 +1,7 @@
 body {
     height: 100%;
     margin: 0 auto;
-    width: 1450px;
+    width: 1440px;
 }
 .pageHeader {
     display: flex;
@@ -19,6 +19,14 @@ body {
     text-decoration: none;
     margin: 0 40px;
 }
+main {
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .introduction {
     display: flex;
     height: 710px;
@@ -26,16 +34,16 @@ body {
 }
 
 .introductionText {
-    width: 600px;
+width: 616px;
+height: 72px;
+
 }
 
 h2 {
     color: #2000E7;
     font-family: "Poppins Bold";
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 16.8px;
 }
 
@@ -51,9 +59,11 @@ h3 {
     color: #2000E7;
     font-family: "Poppins Regular";
     font-size: 30px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+}
+.introPhoto {
+    width: 564px;
+    height: 564px;
 }
 .buttonsWrapper {
     display: flex;
@@ -81,5 +91,10 @@ h3 {
     background: rgba(32, 0, 231, 0.04);
     color: #2000E7;
 }
-
-
+.aboutMe {
+display: flex;
+}
+.aboutMeText {
+width: 415px;
+height: 303px;
+}
